@@ -1,108 +1,310 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ferramentas Css</title>
+
 </head>
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a sessão de Esportes ">Esportes</a>
+                    </li>   
+                    <li>
+                        <a href="#economy" title="Ir para a sessão de Economia ">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#war" title="Ir para sessão de Guerra e Tensões">Guerra e Tensões</a>
+                    </li>
+                    <li>
+                        <a href="#global_warming" title="Ir para sessão de Mudanças Climáticas no Brasil e no Mundo">Mudanças Climáticas no Brasil e no Mundo</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Esportes</h2>
-        <article>
-            <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Grande clássico na noite de hoje</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Noite do Superbowl</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+    <section id="sports">
+        <div class="container">
+                <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://blogbolarolando.wordpress.com/wp-content/uploads/2014/04/wallpapers-bola-estadio-futebol.jpg" alt="bola de Futebol">
+                    <header>
+                        <time class="creation-date">04/11/2024 às 10:12</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos corrupti alias accusantium voluptatem blanditiis provident cumque. Laudantium, eum aut? Quia rerum qui non quasi quos corporis necessitatibus, blanditiis alias at.</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://drmozartmorais.com.br/wp-content/uploads/2017/08/Futebol-Americano-1200x858.jpg" alt="Jogador de futebol-americano com a bola em sua mão">
+                    <header>
+                        <time>03/11/2024 às 10:18</time>
+                    </header>
+                    <h3>Noite do superbowl</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam beatae laborum enim magnam vel cumque culpa explicabo maiores doloremque itaque natus tenetur corrupti, labore exercitationem? Tempora unde quia laboriosam ad.</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://www.rbsdirect.com.br/imagesrc/25249464.jpg?w=1024&h=512&a=c&version=1575255600" alt="quadra de basquete">
+                    <header>
+                        <time>04/11/24 às 10:55</time>
+                    </header>
+                    <h3>Notícias sobre NBA</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, eius voluptas delectus totam neque excepturi, est voluptate non ratione pariatur officiis quae? Ut suscipit non natus sequi a. Impedit, porro.</p>
+                    <a href="#" title="Ler a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Economia</h2>
-        <article>
-            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Dólar em alta de 0.50%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Euro em queda de 0.40%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Alta no preço do barril do petróleo</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
+    <section id="economy">
+        <div class="container">
+                <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="https://media.istockphoto.com/id/1008861200/pt/foto/stack-of-one-hundred-dollars-notes.jpg?s=612x612&w=is&k=20&c=kWWytmmtZXBATH1Hw6En2KX-8XiUyC0EIEt6sji4AxE=" alt="muitos dolares">
+                    <header>
+                        <time >04/11/24 às 10:37</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos accusamus perferendis est illo eligendi reiciendis praesentium voluptas quas culpa nam magnam quis, vero minima ad aspernatur ullam asperiores laudantium odio!</p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://veja.abril.com.br/wp-content/uploads/2022/05/euro.jpg?quality=70&strip=info&w=900&h=601&crop=1" alt="muitos euros">
+                    <header>
+                        <time>04/11/2024 às 10:41</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus distinctio laboriosam, aliquid iusto odit id omnis perspiciatis! Laborum quis repellendus inventore eum laboriosam id quo. Ipsa, praesentium! Porro, beatae modi.</p>
+                    <a href="#" title="Ler a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/1-petroleo.jpg" alt="Extração do petróleo">
+                    <header>
+                        <time >04/11/24 às 10:44</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi aspernatur delectus voluptas. Reprehenderit rerum sed, molestias voluptas delectus quis repellat officiis eum necessitatibus fugit ipsam! Reiciendis incidunt quibusdam quam est?
+                    </p>
+                    <a href="#" title="Ler a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--Parte de HTML sobre o exercício proposto-->
+
+    <section id="war">
+        <div class="container">
+            <h2>Guerras e Tensões</h2>
+            <div class="articles">
+                <article>
+                    <img src="./Imagens/7668f7d1-ec6b-4aa7-9f8c-3b8afb628b94.jpeg" alt="Bandeiras da Ucrânia e da Rússia pintadas no asfalto rachado">
+                    <section>
+                        <time>04/11/2024 às 12:52</time>
+                    </section>
+                    <h3>Guerra Entre Rússia e Ucrânia</h3>
+                    <p>
+                        A Invasão da Ucrânia pela Rússia em 2022, ou oficialmente pelo governo russo como a "Operação Militar Especial na Ucrânia", é uma invasão militar em larga escala lançada pela Rússia contra a Ucrânia, um de seus países vizinhos, a sudoeste, marcando uma escalada acentuada para um conflito que começou em 2014. Vários analistas chamaram a invasão de o maior confronto militar na Europa desde a Segunda Guerra Mundial. A guerra gerou uma enorme onda migratória da Ucrânia e da Rússia, além de uma crise alimentar global, aumento no preço dos combustíveis e inflação.
+                    </p>
+                    <p>
+                        Após a Revolução da Dignidade na Ucrânia em 2014, a Rússia anexou a Crimeia, enquanto as forças separatistas apoiadas pelo governo russo tomaram parte da região do Donbas no sudeste da Ucrânia.Desde o início de 2021, um acúmulo de presença militar russa ocorreu ao longo da fronteira Rússia-Ucrânia. Os Estados Unidos e outros países acusaram a Rússia de planejar uma invasão da Ucrânia, embora as autoridades russas repetidamente negassem que tinham essa intenção.Durante a crise, o presidente russo Vladimir Putin descreveu a ampliação da OTAN pós-1997 como uma "ameaça à segurança" de seu país, uma afirmação que a OTAN rejeita, e exigiu que a Ucrânia fosse permanentemente impedida de ingressar na OTAN.
+                    </p>
+                    <p>
+                        Putin também expressou opiniões irredentistas russas e questionou o direito de existir da Ucrânia. Antes da invasão, tentando fornecer casus belli, Putin acusou a Ucrânia de cometer "genocídio" contra seus cidadãos que falam russo, o que foi amplamente descrito como falso e infundado.
+                    </p>
+            
+                    <p>
+                        Em 21 de fevereiro de 2022, Putin reconheceu a República Popular de Donetsk e a República Popular de Lugansk, duas regiões autoproclamadas como Estados, controladas por separatistas pró-Rússia em Donbas.[87] No dia seguinte, o Conselho da Federação da Rússia autorizou por unanimidade o uso da força militar e as tropas russas entraram em ambos os territórios.Em 24 de fevereiro, Putin anunciou uma "operação militar especial", supostamente para "desmilitarizar" e "desnazificar" a Ucrânia.Minutos depois, mísseis atingiram locais em todo o território ucraniano, incluindo Kiev, a capital. A Guarda Fronteira Ucraniana relatou ataques a postos fronteiriços com a Rússia e a Bielorrússia.Pouco depois, as forças terrestres russas adentraram na Ucrânia.O presidente ucraniano Volodymyr Zelensky promulgou a lei marcial e clamou por uma mobilização geral no país...
+                    </p>
+                    <blockquote>
+                        <cite>
+                            Este artigo ou se(c)ção trata de um conflito armado recente ou em curso. A informação apresentada pode mudar com frequência. Não adicione especulações, nem texto sem referência a fontes confiáveis.
+                            Editado pela última vez em 2 de novembro de 2024; data da marcação: 25 de outubro de 2024.
+                        </cite>
+                    </blockquote>
+                    <a href="https://pt.wikipedia.org/wiki/Invas%C3%A3o_da_Ucr%C3%A2nia_pela_R%C3%BAssia_(2022%E2%80%93presente)" title="Ver artigo completo" target="_blank" class="ref">Leia mais</a>
+                </article>
+                <article>
+                    <img src="/Imagens/conflito-israel-palestina.webp" alt="Bandeiras da Palestina e Israel">
+                    <section>
+                        <time >04/11/2024 às 13:25</time>
+                    </section>
+                    <h3>Conflito entre Palestina e Israel</h3>
+                    <p>
+                        "Os conflitos entre <strong>Israel e Palestina</strong> remontam à primeira metade do século XX e foram iniciados pela disputa em torno do território palestino. Essa rivalidade se iniciou com o crescimento da população judia na Palestina e resultou em uma série de conflitos a partir de 1948. Israel afirma que suas ações são em defesa de sua própria população, e os palestinos acusam Israel de sustentar um regime de <strong>perseguição</strong>."
+                    </p>
+                    <h4>Causas do Conflito entre Israel e Palestina</h4>
+                    <p>
+                        "<mark>O confronto travado entre Israel e Palestina é um dos conflitos de mais longa duração da história da humanidade</mark>. Estende-se oficialmente desde a década de 1940, embora a década de 1930 tenha presenciado uma crescente tensão e violência entre judeus e árabes. Passado todo esse período, de tempos em tempos, hostilidades acontecem entre os dois lados, aumentando a tensão.
+                    </p>
+                    <p>
+                        Historicamente falando, o conflito entre israelenses e palestinos se explica pelo controle da Palestina. Embora exista a questão da religião, que importa muito mais quando o assunto é Jerusalém, a rivalidade entre israelenses e palestinos tem motivos políticos, principalmente, e que envolvem o controle daquele território.
+                    </p>
+            
+                    <p>
+                        Mais recentemente falando, muitos analistas apontam que o confronto atualmente envolve novos aspectos, os quais estão em torno da maneira violenta pela qual Israel trata a população palestina que reside seja em Israel, seja nos territórios palestinos da Cisjordânia e da Faixa de Gaza.
+                    </p>
+            
+                    <p>
+                        Assim, a população palestina luta para conseguir a sua autodeterminação — uma vez que o Estado da Palestina não existe, oficialmente falando —, mas também para conquistar melhores condições de vida, pois alegam que Israel os mantém em condições degradantes, limitando o acesso da população a recursos básicos, como água, e sufocando a população de Gaza com um bloqueio econômico que se estende desde 2007, entre outros fatores.
+                    </p>
+            
+                    <p>
+                        Israel, por sua vez, defende suas ações afirmando que elas se justificam no contexto de combate ao Hamas, organização considerada terrorista pelos israelenses e que comanda a Faixa de Gaza desde 2006. Sendo assim, Israel afirma que seus ataques e todas as outras ações que são tomadas visam exclusivamente a prejudicar o Hamas. Israel ainda acusa o Hamas de usar a população civil da Palestina como escudo humano."
+                    </p>
+                    <blockquote>
+                        <cite>
+                            Escrito por: Daniel Neves Silva
+                            Formado em História pela Universidade Estadual de Goiás (UEG) e especialista em História e Narrativas Audiovisuais pela Universidade Federal de Goiás (UFG). Atua como professor de História desde 2010. - https://brasilescola.uol.com.br/
+                        </cite>
+                    </blockquote>
+                    <a href="https://brasilescola.uol.com.br/geografia/o-conflito-na-palestina-faixa-gaza.htm" title="Ver artigo completo" target="_blank" class="ref">Leia mais</a>
+                </article>
+                <article>
+                    <img src="./Imagens/istockphoto-1200587377-612x612.jpg" alt="Bandeiras dos EUA e Russia">
+                <section>
+                    <time >04/11/2024 às 13:37</time>
+                </section>
+                    <h3>Tensões entre EUA e Rússia</h3>
+                    <p>
+                        Em entrevista à CNN nesta quarta-feira (22), o     professor e PhD em Relações Internacionais, Carlos Gustavo Poggio, falou sobre os momentos protagonizados pelos Estados Unidos e pela Rússia nos últimos tempos e declarou ser a maior tensão já vista desde a Guerra Fria.
+                    </p>
+                    <p>
+                        “Estamos vivendo o momento de maior tensão entre as duas grandes potencias desde meados da <a href="https://pt.wikipedia.org/wiki/Guerra_Fria" title="Clique para saber sobre a Guerra Fria" target="_blank" class="palavra">Guerra Fria</a>, tensões crescentes”, declarou.
+                    </p>
+                    <p>
+                        Poggio também pontuou que a <a href="https://pt.wikipedia.org/wiki/Invas%C3%A3o_da_Ucr%C3%A2nia_pela_R%C3%BAssia_(2022%E2%80%93presente)" title="Clique para saber da guerra da Ucrânia" target="_blank" class="palavra">guerra da Ucrânia</a> “não parecer haver qualquer possibilidade de negociação a curto prazo” e comparou com outros conflitos, como a guerra entre os Estados Unidos e o Iraque.
+                    </p>
+                    <p>
+                        <i>“O tempo da guerra vai depender muito da correlação de forças. Esse é o caso clássico de uma grande potência invadindo um país menor e essas guerras costumam ser relativamente longas”.</i>
+                    </p>
+                    <p>
+                        Na terça-feira (21), o presidente russo, Vladimir Putin, declarou a suspensão da participação da Rússia no novo tratado START com os Estados Unidos, que limita os arsenais nucleares estratégicos dos dois lados.
+                    </p>
+                    <p>
+                        Para <strong>Poggio</strong>, atitude de Putin foi simbólica e uma forma de pressionar o Ocidente a deixar de apoiar a Ucrânia na guerra.
+                    </p>
+                    <p>
+                        <i>“Putin anunciar a saída do tratado é simbólico porque ele já não estava respeitando algumas cláusulas, como a inspeção dos arsenais russos. É uma iniciativa simbólica e também para pressionar o ocidente a não apoiar mais a Ucrânia na guerra”</i>, afirmou.
+                    <p>
+                        <blockquote>
+                            <cite>
+                                De acordo com Carlos Gustavo Poggio, conflitos entre Estados Unidos e Rússia estão crescendo cada vez mais
+                                <strong>Isabela Filardi e Letícia Britoda CNN , Em São Paulo</strong> 
+                            </cite>
+                        </blockquote>
+                        <a href="https://www.cnnbrasil.com.br/internacional/vivemos-a-maior-tensao-entre-duas-potencias-desde-a-guerra-fria-diz-professor/" title="ver artigo completo" target="_blank" class="ref">Leia mais</a>
+                    
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="global_warming">
+        <div class="container">
+            <h2>Aquecimento Global no Brasil e no Mundo</h2>
+            <div class="articles">
+                <article>
+                    <img src="./Imagens/Leonardo_Phoenix_A_haunting_apocalyptic_scene_in_Brazil_where_3-960x540.jpg" alt="Cerrado em chamas com a bandeira do Brasil no centro da imagem">
+                    <section>
+                        <time >
+                            04/11/2024 às 13:56
+                        </time>
+                        <h3>Aquecimento Global no Brasil 2024</h3>
+                        <h4>Para o WWF-Brasil, dados dão o mais contundente alerta sobre a necessidade de combate ao aquecimento global</h4>
+                        <p>
+                            Dados preocupantes sobre o avanço do aquecimento global que está causando as mudanças do clima foram divulgados hoje (5), Dia Mundial do Meio Ambiente. Um novo relatório da Organização Meteorológica Mundial (OMM) revela uma probabilidade de 80% de que a temperatura média global anual exceda temporariamente 1,5°C acima dos níveis pré-industriais durante pelo menos um dos próximos cinco anos. Essa probabilidade era próxima de zero em 2015, quando foi firmado o Acordo de Paris, mas tem aumentado constantemente desde então, em um claro sinal de que o mundo não está conseguindo agir com a rapidez e a eficácia necessárias para combater a crise climática.
+                        </p>
+                        <p>
+                            Simultaneamente, o Serviço Copernicus para as Alterações Climáticas (C3S), declarou o mês passado como o maio mais quente já registrado no planeta, com uma temperatura média global do ar à superfície 0,65°C acima da média de 1991-2020 e 1,52°C acima da média pré-industrial de 1850–1900. Foi o 11º mês consecutivo (desde julho de 2023) igual ou superior a 1,5°C - que é a meta do Acordo de Paris. Com isso, a temperatura média global dos últimos 12 meses (junho de 2023 a maio de 2024) é a mais alta já registrada: 1,63°C acima da média pré-industrial de 1850–1900.
+                        </p>
+                        <p>
+                            “Os dados apresentados pelo Copernicus não chegam a ser surpreendentes, dado o aumento das emissões de gases de efeito de estufa nos últimos anos. As projeções que já apareciam nos relatórios do IPCC. O que surpreende e assusta é estar acontecendo tão rapidamente, trazendo dúvidas se já entramos num novo normal com os desastres climáticos sendo o usual. Obviamente o planeta está gritando que o tempo acabou e que temos de agir: reduzir drasticamente nossas emissões e nos prepararmos para a emergência climática. Isto coloca enorme pressão sobre os governos federal, estaduais e municípios, e sobre o Congresso, para que tomem as decisões que precisam ser tomadas. Não há desculpas para a inanição frente aos desastres climáticos cotidianos que estamos acompanhando”, declara Alexandre Prado, líder em mudanças climáticas do WWF-Brasil.
+                        </p>
+                        <p>
+                            "Como sexto maior emissor de gases de efeito estufa, o Brasil tem um papel importante a desempenhar na luta contra a crise climática. No entanto, o país está se furtando a cumprir o seu papel por conta de constantes retrocessos ambientais no Congresso Nacional. No mesmo momento em que já estamos vivendo as consequências da mudança do clima, que dobrou a probabilidade de chuvas extremas no Rio Grande do Sul, o Congresso Nacional tenta aprovar o projeto de lei n° 364/2019, que é uma séria ameaça aos nossos campos nativos e aos biomas do Brasil. Ao retirar completamente a proteção legal dessas áreas, o projeto permite que sejam convertidas livremente para diferentes usos do solo, como agricultura, pastagens, mineração e urbanização, sem a necessidade de qualquer restrição ou autorização administrativa. Estamos diante de uma ameaça grave não apenas à preservação de nossos ecossistemas naturais, mas também à luta contra a crise climática”, afirma Juliana Miranda, especialista em políticas públicas do WWF-Brasil.
+                        </p>
+                        <blockquote>
+                            <cite>
+                                Por WWF-Brasil
+                            </cite>
+                        </blockquote>
+                        <a href="https://www.wwf.org.br/?88781/Dia-do-Meio-Ambiente-2024-A-hora-de-agir-pelo-clima-e-agora" target="_blank" title="Clique para ver artigo completo" class="ref2">Saiba mais</a>
+                    </section>
+                </article>
+                <article>
+                    <img src="Imagens/aquecimentoMUndo.jpg" alt="Foto do planeta com consequências do aquecimento global">
+                    <section>
+                        <time >04/11/2024 às 14:14</time>
+                    </section>
+                    <h3>Consequências Globais</h3>
+                    <p>
+                        O aquecimento global causado pelas atividades humanas acelera a um "ritmo sem precedentes" enquanto a margem para conter o aumento de temperaturas a +1,5 °C diminui, advertiram pesquisadores em um estudo publicado nesta quarta-feira (5).
+                    </p>
+                    <p>
+                        "O aquecimento causado pelo homem aumentou a um ritmo sem precedentes nas medições instrumentais, atingindo 0,26 °C entre 2014 e 2023", indicam os autores do estudo.
+                    </p>
+                    <p>
+                        O relatório, publicado na revista Earth System Science Data, é resultado do trabalho de quase 60 cientistas de renome que seguem os métodos do IPCC, Painel Intergovernamental sobre Mudanças Climáticas da ONU.
+                    </p>
+                    <p>
+                        Em relação à era pré-industrial, a atividade humana provocou um aumento das temperaturas de 1,19 °C no período estudado e uma alta em relação aos valores do último relatório há um ano (+1,14 °C entre 2013 e 2022).
+                    </p>
+                    <p>
+                        Só no ano de 2023, o aquecimento atribuível à atividade humana foi de 1,31 °C. O aumento total foi de 1,43 °C, considerando variáveis naturais como o fenômeno El Niño.
+                    </p>
+                    <blockquote>
+                        <cite>
+                            Por AFP — Paris
+                            05/06/2024 09h26
+                        </cite>
+                    </blockquote>
+                    <a href="https://oglobo.globo.com/mundo/clima-e-ciencia/noticia/2024/06/05/aquecimento-global-aumenta-em-ritmo-sem-precedentes-alertam-cientistas.ghtml" title="Leia o conteúdo completo" target="_blank" class="ref2" >Saiba mais</a>
+                    <a href="https://www.bbc.com/portuguese/articles/clj971p9er1o" title="Conteúdo de apoio" target="_blank" class="ref2">Veja também</a>
+                </article>
+                <article>
+                    <img src="./Imagens/nasa.webp" alt="Imagem da Logo da Nasa">
+                    <section>
+                        <cite>
+                            04/11/2024 às 14:22
+                        </cite>
+                        <h3>NASA alerta o Brasil</h3>
+                        <h4>
+                            <strong>Nasa: Brasil pode ficar inabitável em 50 anos por aquecimento global</strong>
+                        </h4>
+                        <p>
+                            Um relatório da <a href="https://pt.wikipedia.org/wiki/NASA" title="Conheça sobre a NASA" class="palavra">Nasa</a>, agência espacial norte-americana, revela cenário alarmante para o Brasil: <mark>dentro de 50 anos, o país poderá se tornar inabitável devido aos efeitos do aquecimento global.</mark>
+                        </p>
+                        <p>
+                            Utilizando dados de satélite, a Nasa mapeou as áreas mais vulneráveis do planeta, destacando o Brasil como uma das regiões que enfrentarão mudanças climáticas graves.
+                        </p>
+                        <p>
+                            Segundo a agência espacial, o estudo identifica áreas que se tornarão inabitáveis, bem como aquelas em que a vida poderá deixar de se formar.
+                        </p>
+                        <p>
+                            Entre as regiões mais afetadas, estão o sul da Ásia, o Golfo Pérsico, a China e o Brasil. Em fevereiro deste ano, a Nasa já havia relatado aumento de 1,5ºC na temperatura média global.
+                        </p>
+                        <blockquote>
+                            <cite>
+                                Werverson Virgens
+                                02/05/2025 15:26 - Metrópoles
+                            </cite>
+                        </blockquote>
+                        <a href="https://www.metropoles.com/brasil/brasil-pode-se-tornar-inabitavel-e-incompativel-com-a-vida-em-50-anos" target="_blank" title="Veja contúdo completo"class="ref2" >Saiba mais</a>
+                    </section>
+                </article>
+            </div>
+        </div>
+
     </section>
 </body>
 </html>
